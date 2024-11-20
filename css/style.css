@@ -1,0 +1,98 @@
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+nav{
+    display:flex;
+    margin-left: 10%;
+    margin-right: 4%;
+    padding: 2% 0% 2.5% 0px;
+}
+nav a{
+    text-decoration: none;
+    color:#262626;
+    font-size:15px;
+    font-weight: 600;
+    
+}
+
+.right-menu{
+    margin-left: auto;
+    display:flex;
+    gap:20px;
+}
+.left-menu{
+    display:flex;
+    gap:20px;
+}
+.right-menu-input{
+    border-radius: 5px;
+    border-color:#cf3b05;
+}
+.login-btn{
+    padding: 4px 10px 3px 10px;
+    background-color: #f8f3f3;
+    border-radius: 15px; 
+    width:100px;
+}
+.login-btn a{
+    font-weight: bold;
+    color: orangered; 
+    text-decoration: none;
+}
+.login-btn a:hover{
+    background-color:#cf3b05;
+}
+.GTS-btn{
+    padding: 4px 10px 0px 10px;
+    border-radius: 15px;
+    font-size: 8px;
+    border:none;
+    background-color: orange;
+}
+.GTS-btn a{
+    color: #f8f3f3;
+}
+
+#landing{
+    background-image: url(../img/landing-page.jpg);
+    height:500px;
+}
+
+.landing-text{
+    width:30%;
+    padding-top:15%;
+    padding-left:70%;
+    font-size: 13px;
+}
+.landing-text a{
+    background-color: orange;
+    color:#fff;
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 60px 5px 60px;
+   
+}
+.space{
+    height:150px;
+}
+.second-landing{
+    display: flex;
+}
+.second-landing h1{
+    color:rgb(250, 165, 8);
+    font-size: 45px;
+    font-weight: 450;
+    margin-right: 150px;;
+}
+.hand-img{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
